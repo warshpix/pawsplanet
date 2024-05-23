@@ -1,0 +1,84 @@
+button {
+    cursor: pointer;
+}
+
+.div-header{
+    background-color: #849E74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 9999
+}
+
+.header-items{
+    background-color: #849E74;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    display: block;
+    margin: 0;
+    background-image: url("../images/background2.png");
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}   
+
+.main-content .main-div {
+    border-radius: 10px;
+    background-color: rgba(211, 218, 189, 0.6);
+    border: 1px solid black;
+    display: flex;
+    padding: 32px 283px 56px 284px;
+    height: 602px;
+    width: 473px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .main-div .title {
+    font-size: 72px;
+    margin:0;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 88px;
+
+}
+
+.main-content .main-div .formlabel1 {
+    font-size: 32px;
+}
+
+.main-content .main-div .forminput1 {
+    background-color: #C1C9AA;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 57px;
+    width: 473px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.main-content .main-div .buttons {
+    background-color: #C8AB84;
+    border-radius: 10px;
+    border:none;
+    padding: 5px 42px 5px 42px;
+    font-size: 32px;
+}
+
+.linked-text{
+    text-decoration: none;
+}

@@ -1,0 +1,164 @@
+button {
+    cursor: pointer;
+}
+
+.div-header{
+    background-color: #849E74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 9999
+}
+
+.header-items{
+    background-color: #849E74;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    display: block;
+    margin: 0;
+}
+
+.main-content {
+    display: block;
+    width: calc(100%-160px);
+    margin-top: 80px;
+    padding: 74px 239px 63px 81px;
+    background-image: url("../images/background.png");
+}   
+
+.main-content .section1 {
+    display: block;
+    width: 100%;
+    height: 593px;
+}
+
+.main-content .section1 .imagediv {
+    display: inline-block;
+    position:relative;
+    float: left;
+    width: calc(54% - 92px);
+    height: 100%;
+    margin-right: 92px;
+}
+
+.main-content .section1 .imagediv .itempic {
+    background-color: #ECCA9C;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    left: 0px;
+    height: 119px;
+    width: 119px;
+}
+
+.main-content .section1 .imagediv .itempic-main {
+    background-color: #ECCA9C;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 144px;
+    height: 593px;
+    width: 593px;
+}
+
+.main-content .section1 .infodiv {
+    display: inline-block;
+    position:relative;
+    height:100%;
+    width: 46%;
+}
+
+.main-content .section1 .infodiv p{
+    position: absolute;
+    height: fit-content;
+    margin: 0;
+}
+
+.main-content .section1 .infodiv button {
+    padding: 5px 16px 5px 16px;
+    position: absolute;
+    border-radius: 10px;
+    border:none;
+    font-size: 32px;
+    background-color: #C8AB84;
+}
+
+.main-content .section2 {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin-top: 102px;
+}  
+
+.main-content .section2 .iteminfo {
+    display: block;
+    width: 80%;
+    background-color: rgba(211, 218, 189, 0.6);
+    height: fit-content;
+    border-radius: 15px;
+    border: 1px black solid;
+    padding: 20px 96px 39px 55px;
+}
+
+.main-content .section2 .iteminfo .text1 {
+    font-size: 32px;
+    margin: 0;
+    margin-left:89px;
+}
+
+.main-content .section2 .iteminfo .description {
+    font-size: 24px;
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+    margin-top: 28px;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 417px;
+    background-color: #C1C9AA;
+}
+
+.footer .buttoncontainerrows {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns  p{
+    font-size: 24px;
+    width: max-content;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns  button{
+    height: fit-content; 
+    width: max-content;
+    text-align: left;
+    border: none;
+    background-color: #C1C9AA;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.linked-text{
+    text-decoration: none;
+}

@@ -1,0 +1,224 @@
+button {
+    cursor: pointer;
+}
+
+.div-header{
+    background-color: #849E74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 9999
+}
+
+.header-items{
+    background-color: #849E74;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    display: block;
+    margin: 0;
+}
+.main-content {
+    display: block;
+    width: calc(100%-160px);
+    margin-top: 80px;
+    padding: 50px 80px 60px 80px;
+    background-image: url("../images/background.png");
+}
+
+.main-content .section1 {
+    display: block;
+    width: 100%;
+    height: 468px;
+}
+
+.main-content .section1 .imagediv {
+    display: inline-block;   
+    float: left;
+    width: calc(65% - 20px);
+    height: 468px;
+  
+    margin-right: 20px;
+    background-color: rgb(151, 52, 102);
+}
+
+.main-content .section1 .promotiondiv {
+    display: inline-block;
+    height:468px;
+    width: 35%;
+}
+
+.main-content .section1 .promotiondiv .promotionelement {
+    display: block;
+    position:relative;
+    height: 224px;
+    background-color: #D3DABD;
+}
+
+.main-content .section1 .promotiondiv .promotionelement img {
+    position: absolute;
+    top: 45px;
+    left: 32px;
+}
+
+.main-content .section1 .promotiondiv .promotionelement button {
+    position: absolute;
+    bottom: 25px;
+    right: 21px;
+    background-color: #6F9C7B;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 24px;
+    height: 36px;
+    padding: 0px 14px 0px 14px;
+}
+
+.main-content .section1 .promotiondiv .promotionelement p {
+    position: absolute;
+    top: 40px;
+    left: 183px;
+    font-size: 24px;
+    width: 332px; 
+    height: fit-content;
+}
+
+
+.main-content .section1 .promotiondiv .signup {
+    margin-top: 20px;
+}
+
+.main-content .section2{
+    display:block;
+    margin-top: 95px;
+    width: calc(100% - 108px);
+    margin-left: 54px;
+    text-align: center; 
+}
+
+.main-content .section2 .itemsdiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content .section2 .displayitem{
+    display: flex;
+    width: 266px;
+    height: 330px;
+    background-color:#D3DABD;
+    border: 0px;
+    cursor: pointer;
+    position:relative;
+}
+
+.main-content .section2 .displayitem .itempic{
+    height: 200px;
+    width: 200px;
+    background-color: #DABB90;
+    position:absolute;
+    top:33px;
+    left:33px;
+}
+
+.main-content .section2 .displayitem p{
+    font-size: 16px;
+    color: #2D5B3A;
+    position:absolute;
+    width: 152px;
+    top:255px;
+    left:57px;
+}
+
+.main-content .section2 .displaynewitem{
+    display: flex;
+    width: 266px;
+    height: 405px;
+    background-color:#D3DABD;
+    border: 0px;
+    cursor: pointer;
+    position:relative;
+}
+
+.main-content .section2 .displaynewitem .itempic{
+    height: 200px;
+    width: 200px;
+    background-color: #DABB90;
+    position:absolute;
+    top:33px;
+    left:33px;
+}
+
+.main-content .section2 .displaynewitem p{
+    font-size: 16px;
+    color: #2D5B3A;
+    position:absolute;
+    width: 152px;
+    left:57px;
+}
+
+.main-content .section2 .viewall {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 136px;
+    margin-left: 611px;
+    height: 36px;
+    width: 375px;
+    font-size: 24px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: #D3DABD;
+}
+.main-content .section2 .viewall img{
+    height: 14px;
+    width: 25px;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 417px;
+    background-color: #C1C9AA;
+}
+
+.footer .buttoncontainerrows {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns  p{
+    font-size: 24px;
+    width: max-content;
+}
+
+.footer .buttoncontainerrows .buttoncontainercolumns  button{
+    height: fit-content; 
+    width: max-content;
+    text-align: left;
+    border: none;
+    background-color: #C1C9AA;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.linked-text{
+    text-decoration: none;
+}
+
